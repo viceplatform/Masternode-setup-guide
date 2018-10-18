@@ -74,7 +74,7 @@ Remember that you can copy the text below and paste it in to the server via RIGH
 * Type: `cd ~`  ENTER
 * Type: `wget https://raw.githubusercontent.com/viceplatform/Masternode-setup-guide/master/vice_masternode_install.sh` ENTER
 * Type: `chmod +x vice_masternode_install.sh` ENTER
-* Type: `.vice_masternode_install.sh` ENTER
+* Type: `./vice_masternode_install.sh` ENTER
 ![Imgur](https://i.imgur.com/BwegDU6.png)<br>
 * Type: `y` ENTER<br>
 ![Imgur](https://i.imgur.com/AqHRyDk.png)<br>
