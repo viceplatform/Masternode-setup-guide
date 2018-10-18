@@ -118,7 +118,7 @@ function build_project()
   mkdir $PROJECT_FOLDER/src
   cd $PROJECT_FOLDER/src
   wget $BINARIES
-  unzip Vic*.zip
+  unzip ubu*.zip
   rm *.zip
   chmod +x *
   
