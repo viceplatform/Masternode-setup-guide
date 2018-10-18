@@ -72,7 +72,7 @@ Let's update our system to the latest version to make sure we are secure.
 Remember that you can copy the text below and paste it in to the server via RIGHT-MOUSE click for PuTTY, or CMD-V for MAC<br>
 
 * Type: `cd ~`  ENTER
-* Type: `wget https://raw.github.com/viceplatform/masternode-script-vice/master/vice_masternode_install.sh` ENTER
+* Type: `wget https://raw.githubusercontent.com/viceplatform/Masternode-setup-guide/master/vice_masternode_install.sh` ENTER
 * Type: `chmod +x vice_masternode_install.sh` ENTER
 * Type: `.vice_masternode_install.sh` ENTER
 ![Imgur](https://i.imgur.com/BwegDU6.png)<br>
@@ -91,7 +91,7 @@ The format is like this:
 ```
 # Masternode config file
 # Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
-# Example: MN01 127.0.0.2:51474 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+# Example: MN01 127.0.0.2:42001 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
 ```
 
 4.2. Add your own real working node details under it. <br />
