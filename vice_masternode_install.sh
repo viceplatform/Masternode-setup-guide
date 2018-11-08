@@ -17,8 +17,8 @@ CLI_BINARY="/root/vice/src/vice-cli"
 CONF_FILE="/root/.vice/vice.conf"
 TMP_FOLDER=$(mktemp -d)
 RPC_USER="vice-Admin"
-MN_PORT=42424
-RPC_PORT=42423
+MN_PORT=8089
+RPC_PORT=8093
 CRONTAB_LINE="@reboot sleep 60 && /root/vice/src/viced -daemon"
 BINARIES="https://github.com/viceplatform/vice/releases/download/v1.0.0.1/ubuntu_16.04_daemon.zip"
 

@@ -28,9 +28,9 @@ echo
 echo -e "${BLUE}Starting server...${NC}"
 ~/vice/src/viced -daemon
 sleep 5
-./vice/src/vice-cli addnode=212.237.54.9:42424 add
-./vice/src/vice-cli addnode=80.211.173.251:42424 add
-./vice/src/vice-cli addnode=80.211.72.74:42424 add
-./vice/src/vice-cli addnode=80.211.35.252:42424 add
-./vice/src/vice-cli addnode=80.211.80.236:42424 add
+./vice/src/vice-cli addnode=212.237.54.9:8089 add
+./vice/src/vice-cli addnode=80.211.173.251:8089 add
+./vice/src/vice-cli addnode=80.211.72.74:8089 add
+./vice/src/vice-cli addnode=80.211.35.252:8089 add
+./vice/src/vice-cli addnode=80.211.80.236:8089 add
 watch -g ~/vice/src/vice-cli masternode status

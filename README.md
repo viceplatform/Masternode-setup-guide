@@ -91,18 +91,18 @@ The format is like this:
 ```
 # Masternode config file
 # Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
-# Example: MN01 127.0.0.2:42001 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+# Example: MN01 127.0.0.2:8089 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
 ```
 
 4.2. Add your own real working node details under it. <br />
 4.3. Put the masternode wallet name, i.e - `MN01` <br />
-4.4 Put the server IP address ( your vultr ip or other vps/vm ip) followed by the port :42424 <br />
+4.4 Put the server IP address ( your vultr ip or other vps/vm ip) followed by the port :8089 <br />
 4.5 Put the private key generated in step 1.4 <br />
 4.6 Put the transaction hash and output id from step 1.7 <br />
 Example below
 
 ```
-MN01 124.842.07.0:42424 119cCx5YeA519YkTzun4EptdexAo3RvQXaPdkP 838328ce57cc8b168d932d138001781b77b22470c05cf2235a3284093cb0019db 0
+MN01 124.842.07.0:8089 119cCx5YeA519YkTzun4EptdexAo3RvQXaPdkP 838328ce57cc8b168d932d138001781b77b22470c05cf2235a3284093cb0019db 0
 ```
 
 4.7 Once complete, save the file <br />
@@ -111,8 +111,8 @@ The file will look like this:
 ```
 # Masternode config file
 # Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
-# Example: mn1 127.0.0.2:42424 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
-MN01 125.804.37.9:42424 119cCx5YeA519YkTzun4EptdexAo3RvQXaPdkP 838328ce57cc8b168d932d138001781b77b22470c05cf2235a3284093cb0019db 0
+# Example: mn1 127.0.0.2:8089 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+MN01 125.804.37.9:8089 119cCx5YeA519YkTzun4EptdexAo3RvQXaPdkP 838328ce57cc8b168d932d138001781b77b22470c05cf2235a3284093cb0019db 0
 ```
 4.8 Restart the wallet<br>
 4.9 Go to your wallet and go to the masternode page.<br>
