@@ -12,14 +12,14 @@ PROJECT="vice"
 PROJECT_FOLDER="/root/vice"
 DAEMON_BINARY="viced"
 DAEMON_BINARY_PATH="/root/vice/src/viced"
-DAEMON_START="/root/vice/src/viced -daemon"
+DAEMON_START="/root/vice/src/viced -daemon -resync"
 CLI_BINARY="/root/vice/src/vice-cli"
 CONF_FILE="/root/.vice/vice.conf"
 TMP_FOLDER=$(mktemp -d)
 RPC_USER="vice-Admin"
 MN_PORT=8089
 RPC_PORT=8093
-CRONTAB_LINE="@reboot sleep 60 && /root/vice/src/viced -daemon"
+CRONTAB_LINE="@reboot sleep 60 && /root/vice/src/viced -daemon -resync"
 BINARIES="https://github.com/viceplatform/vice/releases/download/v1.0.1.1/ubuntu_16.04_daemon.zip"
 
 function checks() 
