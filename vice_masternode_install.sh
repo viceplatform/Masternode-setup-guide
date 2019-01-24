@@ -20,7 +20,7 @@ RPC_USER="vice-Admin"
 MN_PORT=8933
 RPC_PORT=8931
 CRONTAB_LINE="@reboot sleep 60 && /root/vice/src/viced -daemon -resync"
-BINARIES="https://github.com/viceplatform/vice/releases/download/1.0.0.1/ubuntu_16.04_daemon.zip"
+BINARIES="https://github.com/viceplatform/vice/releases/download/v1.0.0.1/ubuntu_16.04_daemon.zip"
 
 function checks() 
 {
